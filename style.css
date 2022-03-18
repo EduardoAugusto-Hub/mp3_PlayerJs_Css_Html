@@ -1,0 +1,98 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: #2dfc52;
+    font-family: 'Roboto Slab', serif;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.descricao{
+    width: 300px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #2dfc52;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0;
+    background-color: black;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #2dfc52;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.ponto:hover{
+    filter: drop-shadow( 0 0 1px #2dfc52) drop-shadow( 0 0 5px #2dfc52) drop-shadow( 0 0 20px #2dfc52);
+}
+
+.tempo{ 
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao-play, .botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.botao-play:hover{
+    filter: drop-shadow( 0 0 1px #2dfc52) drop-shadow( 0 0 5px #2dfc52) drop-shadow( 0 0 20px #2dfc52);
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.setas:hover{
+    filter: drop-shadow( 0 0 1px #2dfc52) drop-shadow( 0 0 5px #2dfc52) drop-shadow( 0 0 20px #2dfc52);
+}
+
+.botao-pause{
+    display: none;
+}
+
+.botao-pause:hover{
+    filter: drop-shadow( 0 0 1px #2dfc52) drop-shadow( 0 0 5px #2dfc52) drop-shadow( 0 0 20px #2dfc52);
+}
