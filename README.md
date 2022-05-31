@@ -1,6 +1,6 @@
 <h1 align=center>MP3 Player</h1>
 <h2>Sobre o projeto</h2>
-<p>Este projeto faz parte dos meus estudos de JavaScript, se trata de um MP3 player. Nele existe 3 músicas pré-determinadas, que podem ser alterada entre elas. Todas as imagens e músicas, são de uso gratuito, retiradas da bibliotecade de áudio do ![Youtube](https://studio.youtube.com/channel/UCHXRIiMt20dSdqbTMeJJZfw/music) e do banco de imagem <a src="https://unsplash.com/">Unsplash</a>.</p>
+<p>Este projeto faz parte dos meus estudos de JavaScript, se trata de um MP3 player. Nele existe 3 músicas pré-determinadas, que podem ser alterada entre elas. Todas as imagens e músicas, são de uso gratuito, retiradas da bibliotecade de áudio do <a href="https://studio.youtube.com/channel/UCHXRIiMt20dSdqbTMeJJZfw/music">Youtube</a> e do banco de imagem <a href="https://unsplash.com/">Unsplash</a>.</p>
 
 <h2>Imagens do Projeto</h2>
 <p align=center>
